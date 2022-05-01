@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+.rounded-12xl {
+    border-radius: 20rem; /* 192px */
+}
+@tailwind utilities;
