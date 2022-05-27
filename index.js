@@ -12,7 +12,7 @@ VANTA.WAVES({
   minWidth: 200.00,
   scale: 1.00,
   scaleMobile: 1.00,
-  // shininess: 70.00,
+  shininess: 70.00,
   color: 0x0e001e,
   waveHeight: 30.00,
   waveSpeed: 0.45,
@@ -79,3 +79,6 @@ discordEl.addEventListener("touchend", changeDiscord)
 
 var suprise = ('Techy Pro: If you find this your great also you should subscribe me becuase you found this if you subscribed already thanks if your not then here is the link https://www.youtube.com/channel/UCOSW8LcDQw85RyhmdGN4UVw');
 console.warn(suprise);
+
+var Warning = ("This is the offical website don't get scammed by fake websites so be careful");
+console.warn(Warning);
