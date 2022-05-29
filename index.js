@@ -77,7 +77,18 @@ discordEl.addEventListener("mouseup", changeDiscord);
 discordEl.addEventListener("touchstart", e => { discordLastDown = Date.now(); })
 discordEl.addEventListener("touchend", changeDiscord)
 
-var suprise = ('Techy Pro: If you find this your great also you should subscribe me becuase you found this if you subscribed already thanks if your not then here is the link https://www.youtube.com/channel/UCOSW8LcDQw85RyhmdGN4UVw');
+//copy to clipboard script
+function myFunction() {
+  alert("'Techy Pro#9620' copy the text and paste it in discord and send a friend request")
+  var copydcBtn = document.querySelector('.copydcbtn');
+
+copydcBtn.addEventListener('click', function(event) {
+  copyTextToClipboard('Techy Pro#9620');
+});
+
+}
+
+var suprise = ('Techy Pro: If you find this your great also you should subscribe me becuase you found this if you subscribed already thanks if your not then here is the link https://www.youtube.com/channel/UCOSW8LcDQw85RyhmdGN4UVw, Also if you find this dm me in discord id-Techy Pro#9620 , and also you can dm me in twitter- https://twitter.com/TechyProoffical');
 console.warn(suprise);
 
 var Warning = ("This is the offical website don't get scammed by fake websites so be careful");
