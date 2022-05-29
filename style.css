@@ -591,5 +591,59 @@ font-size: 14px;
 width: 25px;
 margin-right: 5px;
 }
+/* callout */
+.callout {
+  position: fixed;
+  bottom: 35px;
+  right: 72rem;
+  margin-left: 20px;
+  max-width: 300px;
+}
 
+.callout-header {
+  padding: 25px 15px;
+  background: rgb(0, 0, 0);
+  font-size: 30px;
+  color: #5352ed;
+}
 
+.callout-container {
+  padding: 15px;
+  background-color: #6B21A8;
+  color: black
+}
+
+.closebtn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: #6B21A8;
+  font-size: 30px;
+  cursor: pointer;
+}
+.blink {
+  animation: a 1s infinite;
+}
+
+@keyframes a {
+  0% {
+    color: red;
+    text-shadow: 2px 2px 5px red;
+  }
+  50% {
+    color: red;
+    text-shadow: 2px 2px 5px red;
+  }
+  51% {
+    color: yellow;
+    text-shadow: 2px 2px 5px yellow;
+  }
+  90% {
+    color: yellow;
+    text-shadow: 2px 2px 5px yellow;
+  }
+  100% {
+    color: red;
+    text-shadow: 2px 2px 5px red;
+  }
+}
