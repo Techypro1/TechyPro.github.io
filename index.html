@@ -21,8 +21,9 @@
 
   <img>
      <!-- ----------------- header ------------------- --->
-    <nav class="navbar bg-purple-800 text-white flex justify-between">
-      <span class=" text-xl flex items-center mx-3 font-bold uppercase cursor-pointer"><img src="lg.png" alt="lg" class="text-xl flex items-center mx-2 w-10 h-10 cursor-pointer ">Techy Pro</span>
+  <header>
+    <nav class="navbar bg-purple-800 text-white flex justify-between text-base">
+      <span class=" text-xl flex items-center mx-3 font-bold uppercase cursor-pointer" style="font-family: 'Courier New', Courier, monospace;"><img src="lg.png" alt="lg" class="text-xl flex items-center mx-2 w-10 h-10 cursor-pointer ">Techy Pro</span>
      
       <ul class="px-27 py-4 flex space-x-11 justify-end">
        <a href="#home">
@@ -80,6 +81,7 @@
         <a href="#more"><li class="hover:text-black hover:underline hover:underline-offset-8">MORE</li></a>
       </ul>
     </nav>
+  </header>
      <!-- ----------------- header ends here ------------------- --->
      <!-- ----------------- landing page ------------------- --->
      
@@ -130,46 +132,84 @@
   <!-- ----------------- about me ends here ------------------- --->
   <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(0, 0, 0)">
   <a name="skillss"></a>
-        <!-- ----------------- my skills ------------------- --->
+        <!-- ----------------- my skills ------------------- --->   
         <div id="skills" class="skills text-white flex justify-center text-4xl italic font-bold  hover:underline hover:underline-offset-8"><abbr title="About my skills">My Skills</div></abbr>
-        <div class="skills-cards bg-blur">
-        <u class="flex text-cyan-400 uppercase">Advanced</u>
-        <p class="flex justify-start text-red-600">C</p>
-        <p class="flex justify-start text-red-600">Python</p>        
-        <p class="flex justify-start text-red-600">Java</p>
-        <p class="flex justify-start text-red-600">JavaScript</p>
-        <p class="flex justify-start text-red-600">HTML</p>
-        <p class="flex justify-start text-red-600">CSS</p>
-        <p class="flex justify-start text-red-600">Node JS</p>
-        <p class="flex justify-start text-red-600">React JS</p>
-        <p class="flex justify-start text-red-600">Tailwind CSS</p>
-        <p class="flex justify-start text-red-600">TailBlocks</p>
-        <p class="flex justify-start text-red-600">Electron JS</p>
-        <p class="flex justify-start text-red-600">Neutralino JS</p>
-        <p class="flex justify-start text-red-600">Bootstrap</p>
-        <p class="flex justify-start text-red-600">Figma</p>
-        <p class="flex justify-start text-red-600">Git/Github</p>
-      </div>
-        <div id="skills2" class="skills-cards bg-blur">
-        <u class="flex text-cyan-400 uppercase">Intermediate</u>
-         <p class="flex justify-start text-red-600">C#</p>
-         <p class="flex justify-start text-red-600">XML</p>
-         <p class="flex justify-start text-red-600">React Native</p>
-         <p class="flex justify-start text-red-600">Selenium</p>
-         <p class="flex justify-start text-red-600">PyAutoGUI</p>
-         <p class="flex justify-start text-red-600">Tkinter</p>
-         <p class="flex justify-start text-red-600">SQL</p>
-         <p class="flex justify-start text-red-600">Firebase</p>
-         <p class="flex justify-start text-red-600">Material UI</p>
-      </div>
-        <div id="skills2" class="skills-cards bg-blur">
-        <u class="flex text-cyan-400 uppercase">beginner</u>
-         <p class="flex justify-start text-red-600">Swift</p>
-         <p class="flex justify-start text-red-600">SwiftUI</p>
-         <p class="flex justify-start text-red-600">Flask</p>
-         <p class="flex justify-start text-red-600">jQuery</p>
-         <p class="flex justify-start text-red-600">PyGame</p>
-         </div>
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 md:w-1/3">
+              <div class="flex rounded-lg h-full bg-black p-8 flex-col">
+                <div class="flex items-center mb-3">
+                  <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke:currentColor;">
+                      <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                    </svg>
+                  </div>
+                 <u class="flex text-cyan-400 uppercase text-lg title-font font-medium">Advanced</u>
+                </div>
+                <div class="flex-grow">   
+                  <p class="flex justify-start text-red-600">C</p>
+                  <p class="flex justify-start text-red-600">Python</p>        
+                  <p class="flex justify-start text-red-600">Java</p>
+                  <p class="flex justify-start text-red-600">JavaScript</p>
+                  <p class="flex justify-start text-red-600">HTML</p>
+                  <p class="flex justify-start text-red-600">CSS</p>
+                  <p class="flex justify-start text-red-600">Node JS</p>
+                  <p class="flex justify-start text-red-600">React JS</p>
+                  <p class="flex justify-start text-red-600">Tailwind CSS</p>
+                  <p class="flex justify-start text-red-600">TailBlocks</p>
+                  <p class="flex justify-start text-red-600">Electron JS</p>
+                  <p class="flex justify-start text-red-600">Neutralino JS</p>
+                  <p class="flex justify-start text-red-600">Bootstrap</p>
+                  <p class="flex justify-start text-red-600">Figma</p>
+                  <p class="flex justify-start text-red-600">Git/Github</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/3">
+              <div class="flex rounded-lg h-full bg-black p-8 flex-col">
+                <div class="flex items-center mb-3">
+                  <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke:currentColor;">
+                      <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                      <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                  </div>
+                  <u class="flex text-cyan-400 uppercase text-lg title-font font-medium">Intermediate</u>
+                </div>
+                <div class="flex-grow">
+                  <p class="flex justify-start text-red-600">C#</p>
+                  <p class="flex justify-start text-red-600">PyAutoGUI</p>
+                  <p class="flex justify-start text-red-600">SQL</p>
+                  <p class="flex justify-start text-red-600">Firebase</p>
+                  <p class="flex justify-start text-red-600">PyGame</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/3">
+              <div class="flex rounded-lg h-full bg-black p-8 flex-col">
+                <div class="flex items-center mb-3">
+                  <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke:currentColor;">
+                      <circle cx="6" cy="6" r="3"></circle>
+                      <circle cx="6" cy="18" r="3"></circle>
+                      <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                    </svg>
+                  </div>
+                  <u class="flex text-cyan-400 uppercase text-lg title-font font-medium">beginner</u>
+                </div>
+                <div class="flex-grow">
+                  <p class="flex justify-start text-red-600">Swift</p>
+                  <p class="flex justify-start text-red-600">SwiftUI</p>
+                  <p class="flex justify-start text-red-600">Flask</p>
+                  <p class="flex justify-start text-red-600">jQuery</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <br>
       <br>
       <br>
@@ -396,18 +436,6 @@
               <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
             </svg>
           </a>
-          <a class="ml-3 text-gray-500">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke:currentColor;">
-              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-            </svg>
-          </a>
-          <a class="ml-3 text-gray-500">
-            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24" data-darkreader-inline-fill="" data-darkreader-inline-stroke="" style="--darkreader-inline-fill:currentColor; --darkreader-inline-stroke:currentColor;">
-              <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke:none;"></path>
-              <circle cx="4" cy="4" r="2" stroke="none" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke:none;"></circle>
-            </svg>
-          </a>
         </span>
       </div>
       <script src="https://apis.google.com/js/platform.js"></script>
@@ -432,7 +460,7 @@
     <ul class="sci" style="list-style: none;">
       <li style="--i:1">
        <a href="https://twitter.com/TechyProoffical"><i class="fa fa-twitter" aria-hidden="true" style="color: #00acee; font-size: 30px;" target="_blank"></i></a>
-<a class="cursor-pointer copydcbtn" onclick="myFunction()"><i class="fa-brands fa-discord" aria-hidden="true" style="color: #3a3ae2; font-size: 30px;"></i></a>
+<a class="cursor-pointer" onclick="copycb()"><i class="fa-brands fa-discord" aria-hidden="true" style="color: #3a3ae2; font-size: 30px;"></i></a>
 <a href="https://www.youtube.com/channel/UCOSW8LcDQw85RyhmdGN4UVw"><i class="fa-brands fa-youtube" aria-hidden="true" style="color: #ff0000; font-size: 30px;" target="_blank"></i></a>
       </li>
   </ul>
